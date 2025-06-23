@@ -15,12 +15,14 @@ run/main_scene="uid://bbwjbwwlyj31g"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[display]
+[gui]
 
-window/size/mode=2
+theme/default_font_multichannel_signed_distance_field=true
 
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+anti_aliasing/quality/screen_space_aa=1

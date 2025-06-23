@@ -1,0 +1,7 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://df4l3lh3pnnnn"]
+
+[ext_resource type="Texture2D" uid="uid://cgrslob5gohy" path="res://assets/keyboard-&-mouse_sheet_double.png" id="1_wnyx3"]
+
+[resource]
+texture = ExtResource("1_wnyx3")
+region_rect = Rect2(16, 1424, 96, 96)
